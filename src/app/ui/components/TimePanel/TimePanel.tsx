@@ -13,7 +13,7 @@ const TimePanel: React.FC = () => {
 
 	return (
 		<div className={styles.timePanel}>
-			<div className={styles.timePanel__header}>Time of day</div>
+			<div className={styles.timePanel__header}>Time of Day2</div>
 			<div className={styles.timePanel__presets}>
 				{presets.map((presetName, i) => {
 					const isActive = timeMode === i;
